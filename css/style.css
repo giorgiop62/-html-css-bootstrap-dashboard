@@ -1,11 +1,17 @@
 [class^="container"],
 [class^="col"] {
 
-  min-height: 100px;
   border: solid red 1px;
 }
 .navbar {
   height: 100px;
+}
+.d-flex {
+  display: flex;
+}
+
+header .icone {
+  list-style-type: none;
 }
 
 main {
@@ -44,6 +50,18 @@ main {
 }
 .number {
   font-size: 30px;
-  
+
+}
+
+img {
+  width: 100%;
+}
+
+.sc-form .form-control {
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-radius: 0;
+
 }
 
