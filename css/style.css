@@ -4,6 +4,11 @@
 
 .navbar {
   height: 100px;
+  width: 100%;
+  position: fixed;
+}
+main {
+  padding-top: 100px;
 }
 .d-flex {
   display: flex;
@@ -17,7 +22,6 @@
 .classi {
   padding-top: 3px;
   border: 1px solid lightslategray;
-  background-color: grey;
 }
 
 .fa-solid{
@@ -57,7 +61,7 @@
   background-image: url(./img/sidebar-bg.png);
   background-color: #061e33;
   height: calc(100vh - 100px);
-  width: 230px;
+  width: 150px;
   padding-top: 10px;
   color: white;
 }
@@ -73,9 +77,9 @@
   color: white;
 }
 
-.container {
-  width: calc(100vw -230px);
-  height: calc(100vh -90px);
+.container-fluid{
+  width: calc(100vw -150px);
+  height: calc(100vh -100px);
   overflow: auto;
 }
 
@@ -83,6 +87,8 @@
   background-color: #2376e4;
   color: white;
   padding-top: 20px;
+  margin-bottom: 10px;
+
   
 }
 .number {
