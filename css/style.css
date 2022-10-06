@@ -1,8 +1,7 @@
 [class^="container"],
-[class^="col"] {
+[class^="col"] {}
 
-  border: solid red 1px;
-}
+
 .navbar {
   height: 100px;
 }
@@ -10,17 +9,10 @@
   display: flex;
 }
 
-header .icone {
-  list-style-type: none;
-}
-
-main {
-  display: flex;
-}
 .menu .list {
   background-image: url(./img/sidebar-bg.png);
   background-color: #061e33;
-  height: calc(100vh - 90px);
+  height: calc(100vh - 100px);
   width: 230px;
   padding-top: 10px;
   color: white;
