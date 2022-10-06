@@ -8,6 +8,50 @@
 .d-flex {
   display: flex;
 }
+.justify-content {
+  justify-content: space-between;
+}
+.fa-plus{
+  color: #2376e4;
+}
+.classi {
+  padding-top: 3px;
+  border: 1px solid lightslategray;
+  background-color: grey;
+}
+
+.fa-solid{
+  padding-right: 10px;
+}
+
+.col-2 ul {
+  list-style-type: none;
+}
+.col-2 ul li {
+  margin-left: 10px;
+}
+.fa-bell {
+  color: #fd9032;
+}
+.icona1 {
+  width: 30px;
+  padding-right: 5px;
+}
+.done {
+  color: white;
+  background-color: green;
+  border-radius: 6px;
+}
+.faild {
+  background-color: red;
+  color: white;
+  border-radius: 6px;
+}
+.process {
+  background-color: yellow;
+  border-radius: 6px;
+  color: white;
+}
 
 .menu .list {
   background-image: url(./img/sidebar-bg.png);
@@ -38,7 +82,8 @@
 .bg-color {
   background-color: #2376e4;
   color: white;
-  padding: 20px;
+  padding-top: 20px;
+  
 }
 .number {
   font-size: 30px;
