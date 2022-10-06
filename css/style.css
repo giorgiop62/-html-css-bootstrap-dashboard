@@ -1,15 +1,11 @@
 [class^="container"],
 [class^="col"] {}
 
+header {
+  height:100px;
+}
 
-.navbar {
-  height: 100px;
-  width: 100%;
-  position: fixed;
-}
-main {
-  padding-top: 100px;
-}
+
 .d-flex {
   display: flex;
 }
@@ -18,10 +14,6 @@ main {
 }
 .fa-plus{
   color: #2376e4;
-}
-.classi {
-  padding-top: 3px;
-  border: 1px solid lightslategray;
 }
 
 .fa-solid{
@@ -44,17 +36,21 @@ main {
 .done {
   color: white;
   background-color: green;
-  border-radius: 6px;
+  border-radius: 5px;
+  text-align: center;
+
 }
 .faild {
   background-color: red;
   color: white;
-  border-radius: 6px;
+  border-radius: 5px;
+  text-align: center;
 }
 .process {
-  background-color: yellow;
-  border-radius: 6px;
+  background-color: #fdc14d;
+  border-radius: 5px;
   color: white;
+  text-align: center;
 }
 
 .menu .list {
@@ -77,9 +73,8 @@ main {
   color: white;
 }
 
-.container-fluid{
-  width: calc(100vw -150px);
-  height: calc(100vh -100px);
+.height-100{
+  height: calc(100vh - 100px);
   overflow: auto;
 }
 
